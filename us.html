@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شراء بطاقة هدايا أبل - الولايات المتحدة</title>
+
+    <script src="https://www.paypalobjects.com/ncp/sb/cart/cart.js" data-merchant-id="5R3TRQ5MZDWCN"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .header img {
+            width: 120px;
+            height: auto;
+        }
+
+        .country-selector {
+            font-size: 16px;
+            padding: 5px;
+            border-radius: 5px;
+            min-width: 150px;
+        }
+
+        paypal-cart-button {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+            padding: 0 20px;
+        }
+
+        .ad-banner {
+            background-color: #ffc107;
+            color: #000;
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .ad-banner a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .ad-banner a:hover {
+            text-decoration: underline;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            position: relative;
+            width: 280px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .flag-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 70px;
+            height: 50px;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        paypal-add-to-cart-button {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* WhatsApp Floating Button */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            font-size: 16px;
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-float img {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            .header img, .country-selector, paypal-cart-button {
+                margin: 5px 0;
+            }
+
+            .card {
+                width: 90%;
+            }
+
+            .whatsapp-float {
+                bottom: 15px;
+                right: 15px;
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .header img {
+                width: 100px;
+            }
+
+            .country-selector {
+                width: 100%;
+                max-width: 200px;
+            }
+
+            .whatsapp-float {
+                font-size: 12px;
+                padding: 6px 10px;
+            }
+
+            .whatsapp-float img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://www.gstatic.com/mobilesdk/240926_mobilesdk/workmark_light_grey.svg" alt="شعار debajo">
+        <select class="country-selector" onchange="window.location.href = this.value;">
+            <option value="us.html" selected>الولايات المتحدة 🇺🇸</option>
+            <option value="global.html">عالمي 🌍</option>
+            <option value="uk.html">المملكة المتحدة 🇬🇧</option>
+            <option value="ca.html">كندا 🇨🇦</option>
+            <option value="ae.html">الإمارات العربية المتحدة 🇦🇪</option>
+        </select>
+        <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+        <script> cartPaypal.Cart({ id: "pp-view-cart" }) </script>
+    </div>
+
+    <!-- إعلان الخصم -->
+    <div class="ad-banner">
+        خصم 10% عند استخدام العملات الرقمية للشراء - 
+        <a href="https://wa.me/+962779985183?text=أرغب بالاستفادة من الخصم عند الدفع بالعملات الرقمية" target="_blank">انقر للتواصل!</a>
+    </div>
+
+    <h1>شراء بطاقة هدايا أبل - الولايات المتحدة</h1>
+    <p>استخدمها للتسوق في متجر التطبيقات، أبل تي في، أبل ميوزك، آيتونز، أبل آركيد، ومتجر أبل.</p>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="flag-container">🇺🇸</div>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-geode-select-2021?wid=600&hei=600&fmt=png-alpha&.v=1705086455500" alt="بطاقة هدايا أبل">
+            <paypal-add-to-cart-button data-id="MNHLU8HPKSFAE"></paypal-add-to-cart-button>
+        </div>
+
+        <div class="card">
+            <div class="flag-container">🇺🇸</div>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/giftcard-email-fogcamo-select-2021?wid=600&hei=600&fmt=png-alpha&.v=1705086456045" alt="بطاقة هدايا أبل">
+            <paypal-add-to-cart-button data-id="KNT6K7SB75DFS"></paypal-add-to-cart-button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/+962779985183?text=مرحبًا، كيف يمكنني مساعدتك؟" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="أيقونة واتساب">
+        <span>كيف يمكنني مساعدتك؟</span>
+    </a>
+
+    <script>
+        const currentPage = window.location.pathname.split('/').pop() || 'us.html';
+        const countrySelect = document.querySelector('.country-selector');
+        for (let option of countrySelect.options) {
+            if (option.value === currentPage) {
+                option.selected = true;
+                break;
+            }
+        }
+    </script>
+
+</body>
+</html>
